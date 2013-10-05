@@ -1,0 +1,72 @@
+/* Everything in between */
+@media only screen
+and (min-width : 320px)
+and (max-width : 960px) {
+    .wpr {
+        width: 100%;
+        height: auto;
+    }
+
+    .title {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    
+    .ftr {
+        clear: both;
+        font-size: 12px;
+    }
+}
+
+
+/* IPHONE 5 */
+@media only screen
+and (min-width : 320px)
+and (max-width : 568px) {
+    .wpr {
+        width: 100%;
+        height: auto;
+    }
+
+    .title {
+        font-size: 30px;
+        padding-top: 30px;
+        margin-bottom: 120px;
+        padding: 30px 20px;
+    }
+
+    .answer {
+        font-size: 68px;
+        margin: 50px 20px;
+    }
+}
+
+
+/* IPHONE < 5 */
+@media only screen
+and (min-width : 320px)
+and (max-width : 480px) {
+    .wpr {
+        width: 100%;
+        height: auto;
+    }
+
+    .title {
+        font-size: 20px;
+        padding-top: 30px;
+        margin-bottom: 20px;
+    }
+
+    .answer {
+        font-size: 30px;
+        margin: 0 20px 50px;
+        display: block;
+        overflow: hidden;
+        padding-bottom: 90px;
+    }
+    
+    .ftr {
+        clear: both;
+        font-size: 12px;
+    }
+}

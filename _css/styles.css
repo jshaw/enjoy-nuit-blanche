@@ -1,0 +1,52 @@
+
+html,
+body {
+    width: 100%;
+    font-family: "Helvetica" Arial sans-serif;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+    background-color: red;
+    padding: 0 3px;
+}
+
+a:hover {
+    color: red;
+    text-decoration: none;
+    background-color: #fff;
+    padding: 0 3px;
+}
+
+.wpr {
+    color: #202020;
+    width: 960px;
+    height: 100%;
+    overflow: hidden;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+}
+
+.title {
+    font-size: 50px;
+    padding-top: 30px;
+    margin-bottom: 120px;
+}
+
+.answer {
+    font-size: 68px;
+    font-weight: bold;
+    margin: 50px;
+}
+
+.ftr {
+    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+    box-sizing: border-box;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 20px;
+}
