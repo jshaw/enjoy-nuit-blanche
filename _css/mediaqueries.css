@@ -12,8 +12,13 @@ and (max-width : 960px) {
         padding-right: 20px;
     }
     
+    .answer {
+        margin: 50px 20px;
+        padding-bottom: 80px;
+    }
+    
     .ftr {
-        clear: both;
+        position: fixed;
         font-size: 14px;
     }
 }
@@ -38,7 +43,11 @@ and (max-width : 568px) {
     .answer {
         font-size: 54px;
         margin: 50px 20px;
-        padding-bottom: 80px;
+        padding-bottom: 40px;
+    }
+    
+    .ftr {
+        position: relative;
     }
 }
 
@@ -63,11 +72,11 @@ and (max-width : 480px) {
         margin: 0 20px 50px;
         display: block;
         overflow: hidden;
-        padding-bottom: 90px;
+        padding-bottom: 40px;
     }
     
     .ftr {
-        clear: both;
+        position: relative;
         font-size: 12px;
     }
 }
